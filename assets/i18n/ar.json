@@ -1,0 +1,286 @@
+{
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "clear": "مسح",
+    "close": "إغلاق",
+    "yes": "نعم",
+    "no": "لا",
+    "loading": "جاري التحميل",
+    "refresh": "تحديث",
+    "print": "طباعة",
+    "export": "تصدير",
+    "import": "استيراد",
+    "view": "عرض",
+    "details": "التفاصيل",
+    "actions": "الإجراءات",
+    "select": "اختيار",
+    "selectAll": "تحديد الكل",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "reset": "إعادة تعيين",
+    "confirm": "تأكيد",
+    "settings": "الإعدادات",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "menu": {
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "totalSales": "إجمالي المبيعات",
+    "totalPurchases": "إجمالي المشتريات",
+    "totalOrders": "إجمالي الطلبات",
+    "totalCustomers": "إجمالي العملاء",
+    "recentActivities": "الأنشطة الأخيرة",
+    "pendingApprovals": "الموافقات المعلقة",
+    "revenue": "الإيرادات",
+    "profit": "صافي الربح",
+    "activeUsers": "المستخدمون النشطون",
+    "operationalEfficiency": "الكفاءة التشغيلية"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور",
+    "loginButton": "دخول",
+    "administrator": "مدير النظام",
+    "logout": "تسجيل الخروج"
+  },
+  "language": {
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    "changeLanguage": "تغيير اللغة"
+  },
+  "messages": {
+    "saveSuccess": "تم الحفظ بنجاح",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "updateSuccess": "تم التحديث بنجاح",
+    "error": "حدث خطأ ما",
+    "noData": "لا توجد بيانات",
+    "confirmDelete": "هل أنت متأكد من حذف هذا العنصر؟"
+  },
+  "user": {
+    "profile": "الملف الشخصي",
+    "personalData": "البيانات الشخصية"
+  },
+  "modules": {
+    "sales": {
+      "title": "المبيعات",
+      "invoices": "فواتير المبيعات",
+      "pos": "نقطة البيع POS",
+      "customers": "العملاء",
+      "quotations": "عروض الأسعار",
+      "returns": "مرتجعات المبيعات",
+      "subtitle": "إدارة المبيعات والفواتير والطلبات",
+      "newInvoice": "فاتورة جديدة",
+      "totalSales": "إجمالي المبيعات",
+      "paid": "المدفوع",
+      "pending": "المعلق",
+      "search": "البحث في الفواتير...",
+      "customer": "العميل",
+      "date": "التاريخ",
+      "dateFrom": "من تاريخ",
+      "dateTo": "إلى تاريخ",
+      "invoiceNumber": "الفاتورة",
+      "paymentMethod": "طريقة الدفع",
+      "total": "الإجمالي",
+      "statuskind": "الحالة",
+      "status": {
+        "paid": "مدفوعة",
+        "pending": "معلقة",
+        "cancelled": "ملغاة"
+      }
+    },
+    "purchases": {
+      "title": "المشتريات",
+      "invoices": "فواتير المشتريات",
+      "orders": "أوامر الشراء",
+      "requests": "طلبات الشراء",
+      "suppliers": "الموردون",
+      "returns": "مرتجعات المشتريات",
+      "requestsPage": {
+        "title": "طلبات الشراء",
+        "subtitle": "إدارة ومتابعة طلبات الشراء",
+        "newRequest": "طلب شراء جديد",
+        "totalRequests": "إجمالي الطلبات",
+        "pendingRequests": "طلبات قيد الانتظار",
+        "completedRequests": "الطلبات المكتملة",
+        "approvedRequests": "طلبات معتمدة",
+        "totalAmount": "إجمالي القيمة",
+        "search": "البحث في طلبات الشراء...",
+        "requestNumber": "رقم الطلب",
+        "requestDate": "تاريخ الطلب",
+        "requiredDate": "تاريخ الاحتياج",
+        "department": "القسم",
+        "requester": "مقدم الطلب",
+        "supplier": "المورد",
+        "items": "الأصناف",
+        "total": "الإجمالي",
+        "status": "الحالة",
+        "statusKind": {
+          "draft": "مسودة",
+          "pending": "قيد الانتظار",
+          "approved": "معتمد",
+          "rejected": "مرفوض",
+          "cancelled": "ملغي"
+        },
+        "viewRequest": "عرض الطلب",
+        "editRequest": "تعديل الطلب",
+        "deleteRequest": "حذف الطلب",
+        "basicInformation": "البيانات الأساسية",
+        "basicInformationHint": "أدخل البيانات الأساسية للطلب",
+        "requestInformation": "بيانات الطلب",
+        "requestInformationHint": "تفاصيل طلب الشراء",
+        "itemsInformation": "الأصناف",
+        "itemsInformationHint": "إضافة الأصناف المطلوبة",
+        "notes": "ملاحظات",
+        "notesHint": "معلومات إضافية",
+        "requestNumberPlaceholder": "أدخل رقم الطلب...",
+        "departmentPlaceholder": "اختر القسم...",
+        "requesterPlaceholder": "اختر مقدم الطلب...",
+        "supplierPlaceholder": "اختر المورد...",
+        "notesPlaceholder": "أدخل الملاحظات..."
+      }
+    },
+    "suppliers": {
+      "title": "الموردين",
+      "subtitle": "إدارة الموردين وبياناتهم",
+      "newSupplier": "مورد جديد",
+      "totalSuppliers": "إجمالي الموردين",
+      "active": "النشطين",
+      "inactive": "غير النشطين",
+      "balance": "الرصيد المستحق",
+      "search": "البحث في الموردين...",
+      "status": "الحالة",
+      "code": "كود المورد",
+      "name": "اسم المورد",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "address": "العنوان",
+      "actions": "الإجراءات",
+      "supplierType": "نوع المورد",
+      "type": {
+        "individual": "فرد",
+        "company": "شركة"
+      },
+      "statusKind": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+      },
+      "editSupplier": "تعديل المورد",
+      "formSubtitle": "أدخل بيانات المورد",
+      "basicInformation": "البيانات الأساسية",
+      "basicInformationHint": "البيانات الأساسية للمورد",
+      "contactInformation": "بيانات التواصل",
+      "contactInformationHint": "بيانات التواصل الخاصة بالمورد",
+      "codePlaceholder": "أدخل كود المورد...",
+      "namePlaceholder": "أدخل اسم المورد...",
+      "phonePlaceholder": "أدخل رقم الهاتف...",
+      "emailPlaceholder": "أدخل البريد الإلكتروني...",
+      "addressPlaceholder": "أدخل عنوان المورد...",
+      "notes": "ملاحظات",
+      "notesHint": "معلومات إضافية",
+      "notesPlaceholder": "أدخل الملاحظات..."
+    },
+    "inventory": {
+      "title": "المخازن",
+      "items": "الأصناف",
+      "warehouses": "المخازن",
+      "transfers": "التحويلات المخزنية",
+      "stocktaking": "الجرد",
+      "movements": "حركات المخزون"
+    },
+    "accounting": {
+      "title": "الحسابات",
+      "chartOfAccounts": "دليل الحسابات",
+      "journalEntries": "قيود اليومية",
+      "receipts": "سندات القبض",
+      "payments": "سندات الصرف",
+      "treasury": "الخزينة",
+      "banks": "البنوك"
+    },
+    "restaurant": {
+      "title": "المطاعم",
+      "pos": "نقطة البيع",
+      "tables": "الطاولات",
+      "orders": "الطلبات",
+      "kitchen": "المطبخ"
+    },
+    "hr": {
+      "title": "الموارد البشرية",
+      "employees": "الموظفون",
+      "attendance": "الحضور والانصراف",
+      "leaves": "الإجازات",
+      "payroll": "الرواتب"
+    },
+    "reports": {
+      "title": "التقارير",
+      "sales": "تقارير المبيعات",
+      "purchases": "تقارير المشتريات",
+      "inventory": "تقارير المخزون",
+      "accounting": "التقارير المالية"
+    },
+    "operations": {
+      "title": "العمليات",
+      "manufacturing": "التصنيع",
+      "production": "الإنتاج",
+      "maintenance": "الصيانة",
+      "projects": "المشروعات"
+    }
+  },
+  "shared": {
+    "component": {
+      "grid": {
+        "action": "الإجراءات",
+        "emptyMessage": "لا توجد بيانات"
+      }
+    }
+  },
+   "grid": {
+    "selectColumns": "اختر الأعمدة",
+    "search": "بحث",
+    "expandAll": "فتح الجميع",
+    "collapseAll": "قفل الجميع",
+    "refresh": "تحديث",
+    "add": "اضافة",
+    "save": "حفظ",
+    "deleteSelected": "حذف المحدد",
+    "export": "تصدير",
+    "importFile": "استيراد الملف",
+    "print": "طباعة",
+    "copy": "نسخ",
+    "paste": "لصق",
+    "choose": "اختر",
+    "selectedCount": "تم تحديد {0} عنصر",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "show": "عرض",
+    "new": "جديد",
+    "typePlaceholder": "كتابة ...",
+    "yes": "مفعل",
+    "no": "غير مفعل",
+    "confirmDelete": "هل انت متأكد من الحذف",
+    "copiedMessage": "تم النسخ",
+    "pastedMessage": "تم اللصق",
+    "modalTitleAdd": "أضافة",
+    "modalTitleEdit": "تعديل",
+    "modalTitleNew": "جديد"
+  },
+  "combo":{
+    "choose":"اختر",
+    "emptyMessage":"لا توجد بيانات",
+    "emptyFilterMessage":"لا توجد بيانات"
+  }
+  
+}

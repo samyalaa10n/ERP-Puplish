@@ -1,0 +1,292 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "clear": "Clear",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading",
+    "refresh": "Refresh",
+    "print": "Print",
+    "export": "Export",
+    "import": "Import",
+    "view": "View",
+    "details": "Details",
+    "actions": "Actions",
+    "select": "Select",
+    "selectAll": "Select All",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "settings": "Settings",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalSales": "Total Sales",
+    "totalPurchases": "Total Purchases",
+    "totalOrders": "Total Orders",
+    "totalCustomers": "Total Customers",
+    "recentActivities": "Recent Activities",
+    "pendingApprovals": "Pending Approvals",
+    "revenue": "Revenue",
+    "profit": "Net Profit",
+    "activeUsers": "Active Users",
+    "operationalEfficiency": "Operational Efficiency"
+  },
+  "auth": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password",
+    "loginButton": "Login",
+    "administrator": "Administrator",
+    "logout": "Logout"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "Arabic",
+    "changeLanguage": "Change Language"
+  },
+  "messages": {
+    "saveSuccess": "Saved successfully",
+    "deleteSuccess": "Deleted successfully",
+    "updateSuccess": "Updated successfully",
+    "error": "Something went wrong",
+    "noData": "No data available",
+    "confirmDelete": "Are you sure you want to delete this item?"
+  },
+  "user": {
+    "profile": "Profile",
+    "personalData": "Personal Data"
+  },
+  "modules": {
+    "sales": {
+      "title": "Sales",
+      "invoices": "Sales Invoices",
+      "pos": "Point of Sale POS",
+      "customers": "Customers",
+      "quotations": "Quotations",
+      "returns": "Sales Returns",
+      "subtitle": "Sales management, invoices and orders",
+      "newInvoice": "New Invoice",
+      "totalSales": "Total Sales",
+      "paid": "Paid",
+      "pending": "Pending",
+      "search": "Search invoices...",
+      "customer": "Customer",
+      "date": "Date",
+      "dateFrom": "From Date",
+      "dateTo": "To Date",
+      "invoiceNumber": "Invoice",
+      "paymentMethod": "Payment Method",
+      "total": "Total",
+      "statuskind": "Status",
+      "status": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "cancelled": "Cancelled"
+      }
+    },
+    "purchases": {
+      "title": "Purchases",
+      "invoices": "Purchase Invoices",
+      "orders": "Purchase Orders",
+      "search": "Search purchase requests...",
+      "requests": "Purchase Requests",
+      "suppliers": "Suppliers",
+      "returns": "Purchase Returns",
+      "requestsPage": {
+        "title": "Purchase Requests",
+        "subtitle": "Manage and track purchase requests",
+        "newRequest": "New Purchase Request",
+        "totalRequests": "Total Requests",
+        "pendingRequests": "Pending Requests",
+        "approvedRequests": "Approved Requests",
+        "completedRequests": "Completed Requests",
+        "totalAmount": "Total Amount",
+        "requestNumber": "Request Number",
+        "requestDate": "Request Date",
+        "requiredDate": "Required Date",
+        "department": "Department",
+        "requester": "Requester",
+        "supplier": "Supplier",
+        "items": "Items",
+        "total": "Total",
+        "status": "Status",
+        "statusKind": {
+          "draft": "Draft",
+          "pending": "Pending",
+          "approved": "Approved",
+          "rejected": "Rejected",
+          "cancelled": "Cancelled"
+        },
+        "viewRequest": "View Request",
+        "editRequest": "Edit Request",
+        "deleteRequest": "Delete Request",
+        "basicInformation": "Basic Information",
+        "basicInformationHint": "Enter the basic request information",
+        "requestInformation": "Request Information",
+        "requestInformationHint": "Purchase request details",
+        "itemsInformation": "Items",
+        "itemsInformationHint": "Add the requested items",
+        "notes": "Notes",
+        "notesHint": "Additional information",
+        "requestNumberPlaceholder": "Enter request number...",
+        "departmentPlaceholder": "Select department...",
+        "requesterPlaceholder": "Select requester...",
+        "supplierPlaceholder": "Select supplier...",
+        "notesPlaceholder": "Enter notes...",
+        "formSubtitle": "Create and manage purchase request details",
+        "noItems": "No items have been added yet",
+        "item": "Item",
+        "quantity": "Quantity",
+        "unit": "Unit",
+        "itemPlaceholder": "Select item...",
+        "unitPlaceholder": "Enter unit..."
+      }
+    },
+    "suppliers": {
+      "title": "Suppliers",
+      "subtitle": "Manage suppliers and their information",
+      "newSupplier": "New Supplier",
+      "totalSuppliers": "Total Suppliers",
+      "active": "Active",
+      "inactive": "Inactive",
+      "balance": "Outstanding Balance",
+      "search": "Search suppliers...",
+      "status": "Status",
+      "code": "Supplier Code",
+      "name": "Supplier Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "address": "Address",
+      "actions": "Actions",
+      "supplierType": "Supplier Type",
+      "type": {
+        "individual": "Individual",
+        "company": "Company"
+      },
+      "statusKind": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "editSupplier": "Edit Supplier",
+      "formSubtitle": "Enter supplier information",
+      "basicInformation": "Basic Information",
+      "basicInformationHint": "Basic supplier information",
+      "contactInformation": "Contact Information",
+      "contactInformationHint": "Supplier contact details",
+      "codePlaceholder": "Enter supplier code...",
+      "namePlaceholder": "Enter supplier name...",
+      "phonePlaceholder": "Enter phone number...",
+      "emailPlaceholder": "Enter email address...",
+      "addressPlaceholder": "Enter supplier address...",
+      "notes": "Notes",
+      "notesHint": "Additional information",
+      "notesPlaceholder": "Enter notes..."
+    },
+    "inventory": {
+      "title": "Inventory",
+      "items": "Items",
+      "warehouses": "Warehouses",
+      "transfers": "Stock Transfers",
+      "stocktaking": "Stocktaking",
+      "movements": "Inventory Movements"
+    },
+    "accounting": {
+      "title": "Accounting",
+      "chartOfAccounts": "Chart of Accounts",
+      "journalEntries": "Journal Entries",
+      "receipts": "Receipts",
+      "payments": "Payments",
+      "treasury": "Treasury",
+      "banks": "Banks"
+    },
+    "restaurant": {
+      "title": "Restaurants",
+      "pos": "Point of Sale",
+      "tables": "Tables",
+      "orders": "Orders",
+      "kitchen": "Kitchen"
+    },
+    "hr": {
+      "title": "Human Resources",
+      "employees": "Employees",
+      "attendance": "Attendance",
+      "leaves": "Leaves",
+      "payroll": "Payroll"
+    },
+    "reports": {
+      "title": "Reports",
+      "sales": "Sales Reports",
+      "purchases": "Purchase Reports",
+      "inventory": "Inventory Reports",
+      "accounting": "Financial Reports"
+    },
+    "operations": {
+      "title": "Operations",
+      "manufacturing": "Manufacturing",
+      "production": "Production",
+      "maintenance": "Maintenance",
+      "projects": "Projects"
+    }
+  },
+  "shared": {
+    "component": {
+      "grid": {
+        "action": "Actions",
+        "emptyMessage": "No data available"
+      }
+    }
+  },
+  "grid": {
+    "selectColumns": "Select columns",
+    "search": "Search",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "refresh": "Refresh",
+    "add": "Add",
+    "save": "Save",
+    "deleteSelected": "Delete selected",
+    "export": "Export",
+    "importFile": "Import file",
+    "print": "Print",
+    "copy": "Copy",
+    "paste": "Paste",
+    "choose": "Choose",
+    "selectedCount": "{0} items selected",
+    "delete": "Delete",
+    "edit": "Edit",
+    "show": "View",
+    "new": "New",
+    "typePlaceholder": "Type ...",
+    "yes": "Enabled",
+    "no": "Disabled",
+    "confirmDelete": "Are you sure you want to delete this?",
+    "copiedMessage": "Copied",
+    "pastedMessage": "Pasted",
+    "modalTitleAdd": "Add",
+    "modalTitleEdit": "Edit",
+    "modalTitleNew": "New"
+  },
+  "combo": {
+    "choose": "choose",
+    "emptyMessage":"emptyMessage",
+    "emptyFilterMessage": "emptyFilterMessage"
+  }
+}

@@ -1,0 +1,206 @@
+{
+    "common": {
+        "save": "保存",
+        "cancel": "取消",
+        "delete": "删除",
+        "edit": "编辑",
+        "add": "添加",
+        "search": "搜索",
+        "clear": "清除",
+        "close": "关闭",
+        "yes": "是",
+        "no": "否",
+        "loading": "加载中",
+        "refresh": "刷新",
+        "print": "打印",
+        "export": "导出",
+        "import": "导入",
+        "view": "查看",
+        "details": "详细信息",
+        "actions": "操作",
+        "select": "选择",
+        "selectAll": "全选",
+        "back": "返回",
+        "next": "下一步",
+        "previous": "上一步",
+        "submit": "提交",
+        "reset": "重置",
+        "confirm": "确认",
+        "settings": "设置",
+        "active": "启用",
+        "inactive": "停用"
+    },
+    "menu": {
+        "dashboard": "仪表板",
+        "settings": "设置"
+    },
+    "dashboard": {
+        "title": "仪表板",
+        "totalSales": "销售总额",
+        "totalPurchases": "采购总额",
+        "totalOrders": "订单总数",
+        "totalCustomers": "客户总数",
+        "recentActivities": "最近活动",
+        "pendingApprovals": "待审批",
+        "revenue": "营业收入",
+        "profit": "净利润",
+        "activeUsers": "活跃用户",
+        "operationalEfficiency": "运营效率"
+    },
+    "auth": {
+        "login": "登录",
+        "username": "用户名",
+        "password": "密码",
+        "rememberMe": "记住我",
+        "forgotPassword": "忘记密码",
+        "loginButton": "登录",
+        "administrator": "管理员",
+        "logout": "退出登录"
+    },
+    "language": {
+        "english": "英语",
+        "arabic": "阿拉伯语",
+        "changeLanguage": "切换语言"
+    },
+    "messages": {
+        "saveSuccess": "保存成功",
+        "deleteSuccess": "删除成功",
+        "updateSuccess": "更新成功",
+        "error": "发生错误",
+        "noData": "暂无数据",
+        "confirmDelete": "确定要删除此项目吗？"
+    },
+    "user": {
+        "profile": "个人资料",
+        "personalData": "个人信息"
+    },
+    "modules": {
+        "sales": {
+            "title": "销售",
+            "invoices": "销售发票",
+            "pos": "销售点 POS",
+            "customers": "客户",
+            "quotations": "报价单",
+            "returns": "销售退货",
+            "subtitle": "销售管理、发票和订单",
+            "newInvoice": "新建发票",
+            "totalSales": "销售总额",
+            "paid": "已支付",
+            "pending": "待支付",
+            "search": "搜索发票...",
+            "customer": "客户",
+            "date": "日期",
+            "dateFrom": "开始日期",
+            "dateTo": "结束日期",
+            "invoiceNumber": "发票号",
+            "paymentMethod": "付款方式",
+            "total": "总计",
+            "statuskind": "状态",
+            "status": {
+                "paid": "已支付",
+                "pending": "待支付",
+                "cancelled": "已取消"
+            }
+        },
+        "purchases": {
+            "title": "采购",
+            "invoices": "采购发票",
+            "orders": "采购订单",
+            "suppliers": "供应商",
+            "returns": "采购退货"
+        },
+        "suppliers": {
+            "title": "供应商",
+            "subtitle": "管理供应商及其信息",
+            "newSupplier": "新建供应商",
+            "totalSuppliers": "供应商总数",
+            "active": "启用",
+            "inactive": "停用",
+            "balance": "未结余额",
+            "search": "搜索供应商...",
+            "status": "状态",
+            "code": "供应商编码",
+            "name": "供应商名称",
+            "phone": "电话号码",
+            "email": "电子邮箱",
+            "address": "地址",
+            "actions": "操作",
+            "supplierType": "供应商类型",
+            "type": {
+                "individual": "个人",
+                "company": "公司"
+            },
+            "statusKind": {
+                "active": "启用",
+                "inactive": "停用"
+            },
+            "editSupplier": "编辑供应商",
+            "formSubtitle": "输入供应商信息",
+            "basicInformation": "基本信息",
+            "basicInformationHint": "供应商基本信息",
+            "contactInformation": "联系信息",
+            "contactInformationHint": "供应商联系方式",
+            "codePlaceholder": "请输入供应商编码...",
+            "namePlaceholder": "请输入供应商名称...",
+            "phonePlaceholder": "请输入电话号码...",
+            "emailPlaceholder": "请输入电子邮箱...",
+            "addressPlaceholder": "请输入供应商地址...",
+            "notes": "备注",
+            "notesHint": "其他信息",
+            "notesPlaceholder": "请输入备注..."
+        },
+        "inventory": {
+            "title": "库存",
+            "items": "商品",
+            "warehouses": "仓库",
+            "transfers": "库存调拨",
+            "stocktaking": "库存盘点",
+            "movements": "库存变动"
+        },
+        "accounting": {
+            "title": "会计",
+            "chartOfAccounts": "会计科目表",
+            "journalEntries": "日记账",
+            "receipts": "收款单",
+            "payments": "付款单",
+            "treasury": "资金管理",
+            "banks": "银行"
+        },
+        "restaurant": {
+            "title": "餐饮",
+            "pos": "销售点",
+            "tables": "餐桌",
+            "orders": "订单",
+            "kitchen": "厨房"
+        },
+        "hr": {
+            "title": "人力资源",
+            "employees": "员工",
+            "attendance": "考勤",
+            "leaves": "休假",
+            "payroll": "工资管理"
+        },
+        "reports": {
+            "title": "报表",
+            "sales": "销售报表",
+            "purchases": "采购报表",
+            "inventory": "库存报表",
+            "accounting": "财务报表"
+        },
+        "operations": {
+            "title": "运营",
+            "manufacturing": "制造",
+            "production": "生产",
+            "maintenance": "维护",
+            "projects": "项目"
+        }
+    },
+    "shared": {
+        "component": {
+            "grid": {
+                "action": "操作",
+                "emptyMessage": "暂无数据"
+            }
+        }
+    }
+}

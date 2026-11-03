@@ -1,0 +1,206 @@
+{
+    "common": {
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "delete": "Eliminar",
+        "edit": "Editar",
+        "add": "Agregar",
+        "search": "Buscar",
+        "clear": "Limpiar",
+        "close": "Cerrar",
+        "yes": "Sí",
+        "no": "No",
+        "loading": "Cargando",
+        "refresh": "Actualizar",
+        "print": "Imprimir",
+        "export": "Exportar",
+        "import": "Importar",
+        "view": "Ver",
+        "details": "Detalles",
+        "actions": "Acciones",
+        "select": "Seleccionar",
+        "selectAll": "Seleccionar todo",
+        "back": "Atrás",
+        "next": "Siguiente",
+        "previous": "Anterior",
+        "submit": "Enviar",
+        "reset": "Restablecer",
+        "confirm": "Confirmar",
+        "settings": "Configuración",
+        "active": "Activo",
+        "inactive": "Inactivo"
+    },
+    "menu": {
+        "dashboard": "Panel de control",
+        "settings": "Configuración"
+    },
+    "dashboard": {
+        "title": "Panel de control",
+        "totalSales": "Ventas totales",
+        "totalPurchases": "Compras totales",
+        "totalOrders": "Pedidos totales",
+        "totalCustomers": "Clientes totales",
+        "recentActivities": "Actividades recientes",
+        "pendingApprovals": "Aprobaciones pendientes",
+        "revenue": "Ingresos",
+        "profit": "Beneficio neto",
+        "activeUsers": "Usuarios activos",
+        "operationalEfficiency": "Eficiencia operativa"
+    },
+    "auth": {
+        "login": "Iniciar sesión",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "rememberMe": "Recordarme",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "loginButton": "Iniciar sesión",
+        "administrator": "Administrador",
+        "logout": "Cerrar sesión"
+    },
+    "language": {
+        "english": "Inglés",
+        "arabic": "Árabe",
+        "changeLanguage": "Cambiar idioma"
+    },
+    "messages": {
+        "saveSuccess": "Guardado correctamente",
+        "deleteSuccess": "Eliminado correctamente",
+        "updateSuccess": "Actualizado correctamente",
+        "error": "Algo salió mal",
+        "noData": "No hay datos disponibles",
+        "confirmDelete": "¿Está seguro de que desea eliminar este elemento?"
+    },
+    "user": {
+        "profile": "Perfil",
+        "personalData": "Datos personales"
+    },
+    "modules": {
+        "sales": {
+            "title": "Ventas",
+            "invoices": "Facturas de venta",
+            "pos": "Punto de venta POS",
+            "customers": "Clientes",
+            "quotations": "Cotizaciones",
+            "returns": "Devoluciones de ventas",
+            "subtitle": "Gestión de ventas, facturas y pedidos",
+            "newInvoice": "Nueva factura",
+            "totalSales": "Ventas totales",
+            "paid": "Pagado",
+            "pending": "Pendiente",
+            "search": "Buscar facturas...",
+            "customer": "Cliente",
+            "date": "Fecha",
+            "dateFrom": "Desde",
+            "dateTo": "Hasta",
+            "invoiceNumber": "Factura",
+            "paymentMethod": "Método de pago",
+            "total": "Total",
+            "statuskind": "Estado",
+            "status": {
+                "paid": "Pagado",
+                "pending": "Pendiente",
+                "cancelled": "Cancelado"
+            }
+        },
+        "purchases": {
+            "title": "Compras",
+            "invoices": "Facturas de compra",
+            "orders": "Órdenes de compra",
+            "suppliers": "Proveedores",
+            "returns": "Devoluciones de compras"
+        },
+        "suppliers": {
+            "title": "Proveedores",
+            "subtitle": "Gestionar proveedores y su información",
+            "newSupplier": "Nuevo proveedor",
+            "totalSuppliers": "Total de proveedores",
+            "active": "Activo",
+            "inactive": "Inactivo",
+            "balance": "Saldo pendiente",
+            "search": "Buscar proveedores...",
+            "status": "Estado",
+            "code": "Código del proveedor",
+            "name": "Nombre del proveedor",
+            "phone": "Número de teléfono",
+            "email": "Correo electrónico",
+            "address": "Dirección",
+            "actions": "Acciones",
+            "supplierType": "Tipo de proveedor",
+            "type": {
+                "individual": "Persona física",
+                "company": "Empresa"
+            },
+            "statusKind": {
+                "active": "Activo",
+                "inactive": "Inactivo"
+            },
+            "editSupplier": "Editar proveedor",
+            "formSubtitle": "Introduzca la información del proveedor",
+            "basicInformation": "Información básica",
+            "basicInformationHint": "Información básica del proveedor",
+            "contactInformation": "Información de contacto",
+            "contactInformationHint": "Datos de contacto del proveedor",
+            "codePlaceholder": "Introduzca el código del proveedor...",
+            "namePlaceholder": "Introduzca el nombre del proveedor...",
+            "phonePlaceholder": "Introduzca el número de teléfono...",
+            "emailPlaceholder": "Introduzca el correo electrónico...",
+            "addressPlaceholder": "Introduzca la dirección del proveedor...",
+            "notes": "Notas",
+            "notesHint": "Información adicional",
+            "notesPlaceholder": "Introduzca las notas..."
+        },
+        "inventory": {
+            "title": "Inventario",
+            "items": "Artículos",
+            "warehouses": "Almacenes",
+            "transfers": "Transferencias de inventario",
+            "stocktaking": "Inventario físico",
+            "movements": "Movimientos de inventario"
+        },
+        "accounting": {
+            "title": "Contabilidad",
+            "chartOfAccounts": "Plan de cuentas",
+            "journalEntries": "Asientos contables",
+            "receipts": "Recibos",
+            "payments": "Pagos",
+            "treasury": "Tesorería",
+            "banks": "Bancos"
+        },
+        "restaurant": {
+            "title": "Restaurantes",
+            "pos": "Punto de venta",
+            "tables": "Mesas",
+            "orders": "Pedidos",
+            "kitchen": "Cocina"
+        },
+        "hr": {
+            "title": "Recursos humanos",
+            "employees": "Empleados",
+            "attendance": "Asistencia",
+            "leaves": "Permisos",
+            "payroll": "Nómina"
+        },
+        "reports": {
+            "title": "Informes",
+            "sales": "Informes de ventas",
+            "purchases": "Informes de compras",
+            "inventory": "Informes de inventario",
+            "accounting": "Informes financieros"
+        },
+        "operations": {
+            "title": "Operaciones",
+            "manufacturing": "Fabricación",
+            "production": "Producción",
+            "maintenance": "Mantenimiento",
+            "projects": "Proyectos"
+        }
+    },
+    "shared": {
+        "component": {
+            "grid": {
+                "action": "Acciones",
+                "emptyMessage": "No hay datos disponibles"
+            }
+        }
+    }
+}
